@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cargar Productos - Tienda Ecológica</title>
+    <link rel="stylesheet" href="../css/cargaaProductos.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1 class="text-center">Cargar Productos - Tienda Ecológica</h1>
+
+        <a href="../html/detalleProductos.html" id="btnInicio" class="btn">Inicio</a>
+        </div>
+    </header>
+    <main>
+        <form id="cargaProductosForm">
+            <label for="nombreProducto">Nombre del Producto</label>
+            <input type="text" id="nombreProducto" placeholder="Ejemplo: Botella de vidrio reciclado" required>
+
+            <label for="descripcionProducto">Descripción</label>
+            <textarea id="descripcionProducto" placeholder="Descripción del producto" required></textarea>
+
+            <label for="precioProducto">Precio</label>
+            <input type="number" id="precioProducto" placeholder="Ejemplo: 150" required>
+
+            <label for="imagenProducto">Imagen</label>
+            <input type="file" id="imagenProducto" accept="image/*" required>
+
+            <button type="submit">Agregar Producto</button>
+        </form>
+
+        <section id="productosCargados">
+            <h2>Productos Cargados</h2>
+            <table id="productosTable">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Descripción</th>
+                        <th>Precio</th>
+                        <th>Imagen</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody id="productosTableBody">
+                    <!-- Productos cargados se añaden aquí -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>WhatsApp: <a href="https://wa.me/1234567890" target="_blank">Contáctanos</a></p>
+        <h4>Métodos de Pago</h4>
+        <div class="metodos-pago">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/41/Visa_Logo.png" alt="Visa">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Mastercard-logo.png" alt="MasterCard">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Paypal_2014_logo.png" alt="PayPal">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8TxTZTZJBs5IxDe0ycna_HpnPB5V1OV_a9Q&s" alt="American Express">
+        </div>
+        <p>&copy; 2024 Tienda Ecológica. Todos los derechos reservados.</p>
+    </footer>
+    
+    <script src="../js/cargaPorductos.js"></script>
+</body>
+</html>
