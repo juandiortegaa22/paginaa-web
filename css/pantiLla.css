@@ -1,0 +1,168 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #4CAF50; /* Verde */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header .btn {
+    background-color: #fff;
+    color: #4CAF50;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+header .btn:hover {
+    background-color: #45a049;
+}
+
+/* Sección del producto */
+.producto-detalle {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+.producto-imagen img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.producto-info {
+    margin-left: 30px;
+    max-width: 600px;
+}
+
+.producto-info h2 {
+    font-size: 28px;
+    color: #333;
+    margin: 0 0 10px;
+}
+
+.producto-info .descripcion {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.producto-info .precio {
+    font-size: 24px;
+    color: #4CAF50;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.botones .btn-whatsapp {
+    background-color: #25D366; /* Color de WhatsApp */
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.botones .btn-whatsapp:hover {
+    background-color: #128C7E;
+}
+
+/* Información adicional */
+.informacion-adicional {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: 40px auto;
+    border-radius: 10px;
+}
+
+.informacion-adicional h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.informacion-adicional ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.informacion-adicional li {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 8px;
+}
+
+/* Comentarios */
+.comentarios {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: 40px auto;
+    border-radius: 10px;
+}
+
+.comentarios h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.comentarios .comentario {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.comentarios .comentario:last-child {
+    border-bottom: none;
+}
+
+/* Footer */
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #45a049;
+}

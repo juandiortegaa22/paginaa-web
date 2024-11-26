@@ -1,0 +1,108 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9; /* Fondo claro */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h2 {
+    color: #4CAF50;
+    text-align: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.error-message {
+    color: red;
+    text-align: center;
+    font-size: 0.9em;
+    margin-top: 10px;
+    display: none; /* Ocultar por defecto */
+}
+
+
+/* Formulario de Login */
+form#loginForm {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+form#loginForm input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+form#loginForm button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1em;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form#loginForm button:hover {
+    background-color: #45a049;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: auto;
+}
+
+footer a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+}
+/* Estilo del botón de Inicio */
+.btn-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn-inicio {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.btn-inicio:hover {
+    background-color: #45a049;
+}
